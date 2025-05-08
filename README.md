@@ -1,78 +1,77 @@
-# 🍨 Projeto Cardápio de Sobremesas
+# 🍬 **Doces Interativos – Catálogo Dinâmico de Sobremesas**
 
-Este é um projeto web dinâmico de **cardápio de sobremesas**, desenvolvido com **TypeScript**, **Vite** e conceitos de **Programação Orientada a Objetos (POO)**. A aplicação permite aos usuários explorar diversas opções de sobremesas, adicionar e remover itens do carrinho e acompanhar o valor total da compra de forma interativa e intuitiva.
+Aplicação web moderna desenvolvida com **TypeScript**, **Vite** e princípios de **Programação Orientada a Objetos (POO)**. O objetivo é oferecer uma experiência fluida para visualizar, selecionar e montar pedidos de sobremesas com feedback visual em tempo real.
 
 ---
 
-## 🚀 Funcionalidades Principais
+## ✨ **Funcionalidades**
 
-### 🧁 Renderização dinâmica de produtos
+### 🍮 Exibição inteligente de produtos
 
-* Os produtos são carregados dinamicamente a partir do arquivo `data.json`.
-* Cada item do cardápio exibe nome, imagem, categoria e preço.
-* A estrutura de dados utiliza **TypeScript** com tipagem forte, promovendo segurança e clareza no código.
+* Carregamento automático dos produtos a partir de um arquivo `data.json`.
+* Cada sobremesa é apresentada com imagem, nome, categoria e preço unitário.
+* Uso de **tipagem estática com TypeScript** para garantir integridade e previsibilidade no código.
 
-### 🛒 Carrinho de Compras Interativo
+### 🛍️ Carrinho funcional e dinâmico
 
-* Permite **adicionar e remover** produtos do carrinho com um clique.
-* É possível **ajustar a quantidade** de cada item diretamente no carrinho.
-* O carrinho exibe:
+* Adição e remoção de itens com cliques rápidos.
+* Controle de **quantidade por item diretamente no carrinho**.
+* Cálculo automático de:
 
-  * **Subtotal por produto** (preço × quantidade)
-  * **Valor total** atualizado em tempo real
+  * **Subtotal de cada produto** (preço × quantidade)
+  * **Valor total geral**, atualizado instantaneamente
 
-### ⚙️ Arquitetura e Tecnologias
+---
 
-* Desenvolvido com **Vite**, proporcionando desempenho otimizado e recarregamento instantâneo.
-* Utiliza **TypeScript** com tipagem explícita em todo o projeto.
-* Baseado em **POO**, com:
+## 🧰 **Tecnologias e Estrutura**
 
-  * Componentes modulares e reutilizáveis
-  * Encapsulamento de lógica
+* 🔧 **Vite**: ambiente de desenvolvimento veloz e otimizado
+* 🧠 **TypeScript**: código mais seguro com tipagens explícitas
+* 🧱 **POO aplicada**:
+
   * Separação clara entre dados e comportamentos
+  * Componentes reutilizáveis e encapsulados
 
 ---
 
-## 🌐 Acesso via GitHub Pages
+## 🌐 **Testar no Navegador**
 
-Para testar o projeto diretamente no navegador:
+Veja o projeto funcionando online:
 
-👉 [Clique aqui para acessar a versão online no GitHub Pages]()
+🔗 [Acesse aqui a versão publicada no GitHub Pages](https://everson715.github.io/Site-venda-doces/)
 
 ---
 
-## 🧪 Como rodar localmente
+## 🧪 **Rodar localmente**
+
+Siga os passos abaixo:
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone este repositório
 git clone https://github.com/Everson715/Site-venda-doces.git
 
-# 2. Acesse o diretório do projeto
-cd NOME_DO_REPOSITORIO
+# 2. Acesse a pasta do projeto
+cd Site-venda-doces
 
 # 3. Instale as dependências
 npm install
 
-# 4. Inicie o servidor de desenvolvimento
+# 4. Inicie o servidor local
 npm run dev
 ```
 
 ---
 
-## 💡 Futuras melhorias
+## 🛠️ **Melhorias em andamento**
 
-* Responsividade completa com `srcSet` e `sizes`
-* Transições suaves utilizando `Framer Motion`
-* Persistência do carrinho com `localStorage`
-* Integração com sistemas de pagamento online
-
----
-
-## 👨‍💻 Desenvolvido por
-
-**Guilherme Menezes**
-Estudante de Engenharia de Software, entusiasta de código limpo, design funcional e experiências ricas no front-end.
+* 📱 Responsividade completa com `srcSet` e `sizes`
+* 🎞️ Animações suaves com `Framer Motion`
+* 💾 Armazenamento persistente via `localStorage`
+* 💳 Integração com sistema de pagamento digital
 
 ---
 
-Se quiser, posso adaptar esse README para inglês ou deixá-lo mais técnico. Deseja isso?
+## 👤 **Autor**
+
+**José Everson**
+Este projeto foi desenvolvido por José Everson da Silva Santos com base nas atividades da Universidade de Pernambuco - Professor Augusto César Oliveira.
