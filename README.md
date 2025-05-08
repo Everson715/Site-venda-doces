@@ -38,7 +38,8 @@ Aplicação web moderna desenvolvida com **TypeScript**, **Vite** e princípios 
 
 Veja o projeto funcionando online:
 
-🔗 [Acesse aqui a versão publicada no GitHub Pages](https://everson715.github.io/Site-venda-doces\index.html)
+🔗 [Acesse aqui a versão publicada no GitHub Pages](https://everson715.github.io/Site-venda-doces/)
+
 ---
 
 ## 🧪 **Rodar localmente**
