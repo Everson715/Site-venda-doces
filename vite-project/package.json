@@ -1,15 +1,19 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "site-venda-doces",
+  "version": "1.0.0",
+  "description": "Projeto dinâmico de cardápio de sobremesas",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5"
-  }
+    "typescript": "^5.0.0"
+  },
+  "author": "Guilherme Menezes",
+  "license": "MIT"
 }
