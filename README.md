@@ -73,5 +73,4 @@ npm run dev
 
 ## 👤 **Autor**
 
-**José Everson**
 Este projeto foi desenvolvido por José Everson da Silva Santos com base nas atividades da Universidade de Pernambuco - Professor Augusto César Oliveira.
